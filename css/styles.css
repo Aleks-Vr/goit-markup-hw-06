@@ -48,7 +48,7 @@ img {
 @media screen and (min-width: 768px) {
     .container {max-width:736px;}
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .container {max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;}
@@ -61,7 +61,7 @@ img {
     padding-bottom: 16px;
     align-items: center;
 }
-@media screen and (min-width: 768px),(min-width: 1168px) {
+@media screen and (min-width: 768px),(min-width: 1158px) {
     .header-container {   padding: 0 15px
 }
 .header-page {
@@ -146,7 +146,7 @@ line-height: 0;}
     color: #4d5ae5;
     margin-right: 120px;
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .logo {margin-right: 76px;}
 }
 
@@ -197,7 +197,7 @@ color: #434455;
 }
 
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .adress-list {
  flex-direction: row;
  gap: 40px;
@@ -206,7 +206,9 @@ color: #434455;
 
 }
 /* #endregion */
-
+/* ======================================================================================================================================================================
+======================= Якщо ти зараз це читаєш, мені залишились лише модальні вікна та зробити зображення респонсивними, максимум ще годинка, ви найкраща с: =================
+======================= ============================================================================================================================================*/
 /* #region mobile-menu */
 .mobile-menu {
     background-color: #FFFFFF;
@@ -327,7 +329,7 @@ color: #434455;
 .section {
     padding: 96px 0;
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .section {padding: 96px 0;}
 }
 .section-general {
@@ -367,13 +369,13 @@ font-size: 36px;}
     padding-bottom: 36px;
 max-width: 768px;}
   }
-  @media screen and (min-width: 1168px) {
+  @media screen and (min-width: 1158px) {
     .section-general {
      padding: 188px 0;
     }
 
   }
-  @media screen and (min-width: 1168px) {
+  @media screen and (min-width: 1158px) {
   .general-page {
    font-weight: 700;
     font-size: 56px;
@@ -390,7 +392,7 @@ max-width: 768px;}
 
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1168px) {
+  @media screen and (min-width: 768px) and (max-width: 1158px) {
     .general-page {
 font-size: 56px;
 line-height: 1.1;
@@ -441,7 +443,7 @@ padding-bottom: 36px;
     margin-bottom: 8px;
     gap: 24px;
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .icon-one-div {display: flex;} 
 }  
 .visually-hidden {
@@ -503,7 +505,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-@media screen and ( min-width: 1168px )
+@media screen and ( min-width: 1158px )
 {
   .skills-list {
   flex-wrap: nowrap;
@@ -586,7 +588,7 @@ gap: 72px;
     flex-wrap: wrap;
 gap: 64px 24px;}
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
     .team-list {
     display: flex;
     align-items: center;
@@ -715,7 +717,7 @@ height: 420px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1158px) {
        .porfolio-list {display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -729,7 +731,7 @@ height: 420px;}
 /* #region 1168 */
 
 .text-image {display: none;}
-@media screen and (min-width: 1168px) {.text-image {
+@media screen and (min-width: 1158px) {.text-image {
     display: block;
   width: 100%;
   height: 100%;
@@ -789,6 +791,7 @@ height: 300px;}
     flex-wrap: wrap;
 gap: 24px;}
 }
+
 .foot-container {
 margin-left: auto;
 margin-right: auto;
@@ -857,10 +860,7 @@ margin-bottom: 16px;
 .foot-social {margin-left: auto;
 margin-right: auto;
 text-align: center;}
-/* .social-link-footer:hover,
-.social-link-footer:focus {
-    background-color: #31D0AA;
-} */
+
 
 .foot-sub {
     display: flex;
@@ -928,3 +928,27 @@ width: 288px;
      margin-left: 16px;
      fill: #fff;
 }
+@media screen and (min-width: 1158px) {
+    .foot-padre {flex-direction: row;
+    padding-left: 0;
+flex-wrap: nowrap;
+align-items: baseline;
+gap: 0; }
+.foot-container {
+      align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+.foot-social {padding-right: 80px;
+    margin: 0 0;}
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #31D0AA;
+}
+}
+/* #endregion */
+/* ======================================================================================================================================================================
+======================= Якщо ти зараз це читаєш, мені залишились лише модальні вікна та зробити зображення респонсивними, максимум ще годинка, ви найкраща с: =================
+======================= ============================================================================================================================================*/
+/* region backdrop */
+
